@@ -1,0 +1,16 @@
+{
+  "name": "SDEV328/Projects/pets2",
+  "authors": [
+    {
+      "name": "Ryan Hendrickson",
+      "email": "rhendrickson11@mail.greenriver.edu"
+    },
+    {
+      "name": "Jerad Clark",
+      "email": "jclark74@mail.greenriver.edu"
+    }
+  ],
+  "require": {
+    "bcosca/fatfree-core": "dev-master"
+  }
+}
