@@ -16,7 +16,19 @@ $f3->set('DEBUG', 3);
 $f3->route('GET /', function() {
     //echo "Pet Home";
     $view = new Template();
-    echo $view->render('views/home.html');
+    echo $view->render('views/pet-home.html');
+});
+
+//Define a default route (home page)
+$f3->route('GET /order', function() {
+   $view = new Template();
+   echo $view->render('views/pet-order.html');
+});
+
+//Define a default route (home page)
+$f3->route('POST /order2', function() {
+    $view = new Template();
+    echo $view->render('views/pet-order2.html');
 });
 
 //Run fat free
