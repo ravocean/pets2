@@ -26,9 +26,15 @@ $f3->route('GET /order', function() {
 });
 
 //Define a default route (home page)
-$f3->route('POST /order2', function() {
+$f3->route('GET /order2', function() {
     $view = new Template();
     echo $view->render('views/pet-order2.html');
+});
+
+//Define a default route (home page)
+$f3->route('POST /summary', function() {
+    $view = new Template();
+    echo $view->render('views/order-summary.html');
 });
 
 //Run fat free
