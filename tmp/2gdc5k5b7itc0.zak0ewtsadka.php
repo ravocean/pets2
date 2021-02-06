@@ -15,20 +15,15 @@
 <div class="container mt-4">
 
     <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-        <h1>Order Summary</h1>
         <div class="col p-4 d-flex flex-column position-static">
+            <h3 class="mb-4 text-center">Welcome to My Pets Page</h3>
 
-            <form action="summary" method="POST">
+            <a href="order">Order a Pet</a>
 
+        </div>
 
-                <div class="mb-3 col-4 mx-auto">
-                    <p>You ordered a {{@SESSION.petselector}}
-                    {{@SESSION.petinput}}, named {{@SESSION.petName}}
-                </p>
-                </div>
-
-
-            </form>
+        <div class="col-auto d-none d-lg-block">
+            <img class="bd-placeholder-img" src="images/pets.jpg" alt="Pets">
 
         </div>
     </div>

@@ -1,0 +1,19 @@
+[29-Jan-2021 20:40:31 UTC] PHP Warning:  require_once(vendor/autoload.php): failed to open stream: No such file or directory in /home/jclarkgr/public_html/328/pets2/index.php on line 9
+[29-Jan-2021 20:40:31 UTC] PHP Fatal error:  require_once(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/jclarkgr/public_html/328/pets2/index.php on line 9
+[29-Jan-2021 20:40:34 UTC] PHP Warning:  require_once(vendor/autoload.php): failed to open stream: No such file or directory in /home/jclarkgr/public_html/328/pets2/index.php on line 9
+[29-Jan-2021 20:40:34 UTC] PHP Fatal error:  require_once(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/jclarkgr/public_html/328/pets2/index.php on line 9
+[29-Jan-2021 20:45:43 UTC] HTTP 404 (GET /order)
+[29-Jan-2021 20:45:43 UTC] [328/pets2/vendor/bcosca/fatfree-core/base.php:1792] Base->error()
+[29-Jan-2021 20:45:43 UTC] [328/pets2/index.php:23] Base->run()
+[29-Jan-2021 20:54:27 UTC] HTTP 404 (GET /order)
+[29-Jan-2021 20:54:27 UTC] [328/pets2/vendor/bcosca/fatfree-core/base.php:1792] Base->error()
+[29-Jan-2021 20:54:27 UTC] [328/pets2/index.php:23] Base->run()
+[29-Jan-2021 20:57:26 UTC] HTTP 404 (GET /order)
+[29-Jan-2021 20:57:26 UTC] [328/pets2/vendor/bcosca/fatfree-core/base.php:1792] Base->error()
+[29-Jan-2021 20:57:26 UTC] [328/pets2/index.php:23] Base->run()
+[29-Jan-2021 20:57:31 UTC] HTTP 404 (GET /order)
+[29-Jan-2021 20:57:31 UTC] [328/pets2/vendor/bcosca/fatfree-core/base.php:1792] Base->error()
+[29-Jan-2021 20:57:31 UTC] [328/pets2/index.php:23] Base->run()
+[29-Jan-2021 21:05:26 UTC] HTTP 404 (GET /order)
+[29-Jan-2021 21:05:26 UTC] [328/pets2/vendor/bcosca/fatfree-core/base.php:1792] Base->error()
+[29-Jan-2021 21:05:26 UTC] [328/pets2/index.php:23] Base->run()
